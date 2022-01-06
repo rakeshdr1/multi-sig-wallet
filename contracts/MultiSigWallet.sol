@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import "hardhat/console.sol";
 
-contract MultiSigwallet {
+contract MultiSigWallet {
     event Deposit(address indexed from, uint256 amount, uint256 balance);
     event SubmitTransaction(
         address indexed from,
